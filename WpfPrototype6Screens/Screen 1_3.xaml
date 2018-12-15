@@ -1,0 +1,52 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:pb="clr-namespace:Microsoft.Expression.Prototyping.Behavior;assembly=Microsoft.Expression.Prototyping.Interactivity" x:Name="Screen_1_3_Name"
+	x:Class="WpfPrototype6Screens.Screen_1_3"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="0.609*"/>
+			<ColumnDefinition Width="0.391*"/>
+		</Grid.ColumnDefinitions>
+		<TextBlock Margin="34,8,26,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Height="111.5" Grid.ColumnSpan="2" FontSize="48"><Run Text="ВВЕДИТЕ ДАННЫЕ КАРТЫ: "/></TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="34,215.5,0,0" VerticalAlignment="Top" Width="118.667" Height="22.5" FontSize="18.667" TextWrapping="Wrap"><Run Text="Имя на карте"/><Run Text=":"/></TextBlock>
+		<RichTextBox Margin="170,219.5,42,0" VerticalAlignment="Top" Height="18.5">
+			<FlowDocument/>
+		</RichTextBox>
+		<TextBlock HorizontalAlignment="Left" Margin="34,0,0,186" VerticalAlignment="Bottom" Width="118.667" Height="23" FontSize="18.667" Text="Номер карты:" TextWrapping="Wrap"/>
+		<RichTextBox Margin="170,0,42,186" VerticalAlignment="Bottom" Height="18.5">
+			<FlowDocument/>
+		</RichTextBox>
+		<TextBlock HorizontalAlignment="Left" Margin="34,0,0,135" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Bottom" Width="118.667" Height="24" Text="CVV:"/>
+		<PasswordBox Margin="170,0,165,144" Style="{DynamicResource PasswordBox-Sketch}" VerticalAlignment="Bottom" Height="19.333"/>
+		<TextBlock HorizontalAlignment="Left" Margin="34,0,0,77.333" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Bottom" Width="126.667" Height="36.667"><Run Text="EXPIRES "/><LineBreak/><Run Text="END"/></TextBlock>
+		<RichTextBox Margin="164.667,0,186.667,82.667" VerticalAlignment="Bottom" Height="21.333">
+			<FlowDocument>
+				<Paragraph/>
+			</FlowDocument>
+		</RichTextBox>
+		<RichTextBox HorizontalAlignment="Right" Margin="0,0,134,82.667" VerticalAlignment="Bottom" Width="38.666" Height="21.333">
+			<FlowDocument>
+				<Paragraph/>
+			</FlowDocument>
+		</RichTextBox>
+		<TextBlock HorizontalAlignment="Right" Margin="0,0,175.334,82.667" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Bottom" Width="7.333" Height="21.333" Text="/"/>
+		<TextBlock Margin="164.667,0,186.667,104" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Bottom" Height="13" FontSize="10.667" Text="Month"/>
+		<TextBlock HorizontalAlignment="Right" Margin="0,0,134,104" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Bottom" Width="38.666" Height="13" FontSize="10.667" Text="Year"/>
+		<Image Margin="-22.115,179,8,29" Grid.Column="1" Source="Image23.png" Stretch="Fill"/>
+		<Button Margin="34,0,83.76,29" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Height="33" Content="Оплатить">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="WpfPrototype6Screens.Screen_6"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Image Margin="8,54.684,0,0" Source="Image24.png" Stretch="Fill" VerticalAlignment="Top" Height="160.816" HorizontalAlignment="Left" Width="159.27"/>
+		<Image Margin="193,79.5,0,0" VerticalAlignment="Top" Height="113" Source="Image26.png" Stretch="Fill" Grid.ColumnSpan="2"/>
+	</Grid>
+</UserControl>

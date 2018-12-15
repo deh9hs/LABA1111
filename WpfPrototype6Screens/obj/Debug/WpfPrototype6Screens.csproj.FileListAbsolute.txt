@@ -1,0 +1,54 @@
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\bin\Debug\WpfPrototype6.Screens.dll
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\bin\Debug\WpfPrototype6.Screens.pdb
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\NAVV.baml
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 6.baml
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\SketchStyles.baml
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\NAVV.g.cs
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 1.g.cs
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 2.g.cs
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 3.g.cs
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 4.g.cs
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 5.g.cs
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 6.g.cs
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\WpfPrototype6.Screens_MarkupCompile.cache
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\WpfPrototype6.Screens_MarkupCompile.lref
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 1.baml
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 2.baml
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 3.baml
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 4.baml
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 5.baml
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\WpfPrototype6.Screens.g.resources
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\WpfPrototype6.Screens.dll
+C:\Users\cabal\Documents\Expression\Blend 3\Projects\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\WpfPrototype6.Screens.pdb
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\bin\Debug\WpfPrototype6.Screens.dll
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\bin\Debug\WpfPrototype6.Screens.pdb
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\NAVV.baml
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 6.baml
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\SketchStyles.baml
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\NAVV.g.cs
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 1.g.cs
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 2.g.cs
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 3.g.cs
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 4.g.cs
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 5.g.cs
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 6.g.cs
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\WpfPrototype6.Screens_MarkupCompile.cache
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\WpfPrototype6.Screens_MarkupCompile.lref
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 1.baml
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 2.baml
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 3.baml
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 4.baml
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 5.baml
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\WpfPrototype6.Screens.g.resources
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\WpfPrototype6.Screens.dll
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\WpfPrototype6.Screens.pdb
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 1_1.baml
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 1_2.baml
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 1_1.g.cs
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 1_2.g.cs
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 1_3.baml
+C:\Users\cabal\Desktop\WpfPrototype6\WpfPrototype6\WpfPrototype6Screens\obj\Debug\Screen 1_3.g.cs

@@ -1,0 +1,72 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:local="clr-namespace:WpfPrototype6Screens" xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:pb="clr-namespace:Microsoft.Expression.Prototyping.Behavior;assembly=Microsoft.Expression.Prototyping.Interactivity" x:Name="Screen_4_Name"
+	x:Class="WpfPrototype6Screens.Screen_4"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<VisualStateManager.VisualStateGroups>
+			<VisualStateGroup x:Name="VisualStateGroup">
+				<VisualState x:Name="ShowDialog">
+					<Storyboard>
+						<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="grid" Storyboard.TargetProperty="(UIElement.Opacity)">
+							<SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+						</DoubleAnimationUsingKeyFrames>
+					</Storyboard>
+				</VisualState>
+				<VisualState x:Name="HideDialog"/>
+			</VisualStateGroup>
+		</VisualStateManager.VisualStateGroups>
+		<TextBlock Margin="260,30,130,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Height="94" FontFamily="Bahnschrift" FontSize="32"><Run FontStyle="Italic" Text="КНИГИ"/></TextBlock>
+		<local:NAVV HorizontalAlignment="Left" Width="172.5" d:IsPrototypingComposition="True" Margin="0,190.051,0,116.949"/>
+		<Image Source="Image12.png" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" Width="172.5" Height="186.051"/>
+		<Image Source="Image13.png" Stretch="Fill" HorizontalAlignment="Right" VerticalAlignment="Top" Width="162.969" Height="175.77"/>
+		<Image Margin="246.5,186.051,257.882,75" Source="Image14.png" Stretch="Fill"/>
+		<TextBlock Margin="246.5,0,245.75,30.5" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Bottom" Height="40.5"><Run Text="Зов КТУХЛХУ"/><LineBreak/><Run FontFamily="Agency FB" Text="$"/><Run FontFamily="Agency FB" Text="19.99"/></TextBlock>
+		<Button Margin="246.5,0,245.75,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Height="30.5" Content="ADD TO CARD">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:ActivateStateAction TargetScreen="WpfPrototype6Screens.Screen_4" TargetState="ShowDialog"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Image HorizontalAlignment="Right" Margin="0,190.051,60.524,75" Width="146.989" Source="Image17.png" Stretch="Fill"/>
+		<TextBlock Margin="0,0,60.524,30.5" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Bottom" Height="40.5" HorizontalAlignment="Right" Width="147.75"><Run Text="ПЕС"/><LineBreak/><Run FontFamily="Agency FB" Text="$"/><Run FontFamily="Agency FB" Text="19.99"/></TextBlock>
+		<Button Margin="0,0,60.524,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Height="30.5" Content="ADD TO CARD" HorizontalAlignment="Right" Width="147.75">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:ActivateStateAction TargetScreen="WpfPrototype6Screens.Screen_4" TargetState="ShowDialog"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Grid x:Name="grid" Margin="223.509,212,46.995,128" Opacity="0">
+			<Rectangle Stroke="Black">
+				<Rectangle.Fill>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="Black" Offset="0"/>
+						<GradientStop Color="#FF8F98F2" Offset="1"/>
+					</LinearGradientBrush>
+				</Rectangle.Fill>
+			</Rectangle>
+			<TextBlock Margin="36.25,22.5,52.246,47" FontStyle="Italic" Text="Спасибо! Этот товар был добавлен в вашу корзину" TextWrapping="Wrap"/>
+			<Button Margin="15.75,0,0,13" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Height="43" Content="Продолжить" HorizontalAlignment="Left" Width="133.25">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pb:ActivateStateAction TargetScreen="WpfPrototype6Screens.Screen_4" TargetState="HideDialog"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+			<Button Margin="0,0,13.529,13" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Height="43" Content="Chechkout" HorizontalAlignment="Right" Width="134.221">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pb:NavigateToScreenAction TargetScreen="WpfPrototype6Screens.Screen_5"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+		</Grid>
+	</Grid>
+</UserControl>

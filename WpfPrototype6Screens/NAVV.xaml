@@ -1,0 +1,51 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:pb="clr-namespace:Microsoft.Expression.Prototyping.Behavior;assembly=Microsoft.Expression.Prototyping.Interactivity"
+	x:Class="WpfPrototype6Screens.NAVV"
+	x:Name="UserControl"
+	d:DesignWidth="172.5" d:DesignHeight="173" Width="172.5" Height="173">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid>
+			<Button Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Height="30" Content="Homepage" Background="Red">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pb:NavigateToScreenAction TargetScreen="WpfPrototype6Screens.Screen_1"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+			<Button Margin="0,30,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Height="31" Content="Toys" Background="Black">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pb:NavigateToScreenAction TargetScreen="WpfPrototype6Screens.Screen_2"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+			<Button Margin="0,61,0,80.667" Style="{DynamicResource Button-Sketch}" Content="Costumes" Background="Red">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pb:NavigateToScreenAction TargetScreen="WpfPrototype6Screens.Screen_3"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+			<Button Margin="0,0,0,40.5" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Height="40.167" Content="Books" Background="Black">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pb:NavigateToScreenAction TargetScreen="WpfPrototype6Screens.Screen_4"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+			<Button Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Height="40.5" Content="Checkout" Background="Red">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pb:NavigateToScreenAction TargetScreen="WpfPrototype6Screens.Screen_5"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+		</Grid>
+	</Grid>
+</UserControl>

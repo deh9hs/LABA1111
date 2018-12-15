@@ -1,0 +1,17 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:local="clr-namespace:WpfPrototype6Screens" x:Name="Screen_1_Name"
+	x:Class="WpfPrototype6Screens.Screen_1"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<TextBlock Margin="63,8,8,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Height="97" FontFamily="Fonts/#SketchFlow Print" FontSize="32" Text="ДОБРО ПОЖАЛОВАТЬ В МАГАЗИН!"/>
+		<local:NAVV HorizontalAlignment="Left" Margin="0,105,0,202" Width="172.5" d:IsPrototypingComposition="True"/>
+		<Image Margin="222,62,0,0" Source="Image1.png" Stretch="Fill"/>
+		<Image Source="Image15.png" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="206.25" Height="198"/>
+	</Grid>
+</UserControl>
